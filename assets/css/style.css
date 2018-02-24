@@ -226,3 +226,87 @@ input[type=submit] {
     padding: 10px 30px;
     cursor: pointer;
 }
+@-ms-viewport {
+    width: device-width;
+  }
+
+@media screen and (max-width: 980px) {
+    .connectBar {
+        float: left;
+    }
+}
+
+@media screen and (max-width: 768px) {
+   
+    .nameLogo {
+        width: 100%;
+        padding: 22px 0;
+        text-align: center;
+    }
+
+    .headerContainer ul {
+        width: 100%;
+    }
+    .headerContainer li {
+        padding: 0;
+        margin: inherit 0;
+        font-size: 17px;
+        font-weight: bold;
+        width: 32.5%;
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width: 640px) {
+
+    .connectBar {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .connectBar ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .headerContainer ul {
+        width: 100%;
+    }
+    .headerContainer li {
+        font-size: 20px;               
+        font-weight: bold;
+    }
+    .contactForm li {
+        width: 90%
+    }
+    .contactForm input[type=button], [type=submit] {
+        width: 100%;
+    }
+    .contactForm input {
+        width: 100%;
+    }
+    .contactForm textarea {
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 460px) {
+    
+    .headerContainer li {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .contactForm input[type=button], [type=submit] {
+        width: 90%;
+    }
+    .contactForm input {
+        width: 90%;
+    }
+    .contactForm textarea {
+        width: 90%;
+    }
+
+}
